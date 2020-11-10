@@ -15,4 +15,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="WhiteButton">
+        <item name="colorPrimary">@color/total_white</item>
+        <item name="colorPrimaryDark">@color/total_white</item>
+    </style>
+
 </resources>

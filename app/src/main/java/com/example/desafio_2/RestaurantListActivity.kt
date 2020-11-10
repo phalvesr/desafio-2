@@ -20,7 +20,7 @@ class RestaurantListActivity : AppCompatActivity() {
                         RestaurantsDataClass().tonyRomas,
                         RestaurantsDataClass().aoyama,
                         RestaurantsDataClass().outback,
-                        RestaurantsDataClass().siSenhor
+                        RestaurantsDataClass().siSenor
                     )
                 )
                 layoutManager = LinearLayoutManager(this@RestaurantListActivity)

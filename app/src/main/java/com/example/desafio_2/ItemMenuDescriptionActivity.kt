@@ -12,8 +12,6 @@ class ItemMenuDescriptionActivity : AppCompatActivity() {
 
         val restaurant = RestaurantsDataClass().outback
 
-        TitleBar().setBackButton(this, true)
-
         Glide
             .with(this)
             .load(restaurant.restaurantMenu[0].itemImage)

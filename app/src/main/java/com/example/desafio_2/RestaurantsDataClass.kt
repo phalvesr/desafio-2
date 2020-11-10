@@ -5,7 +5,7 @@ class RestaurantsDataClass() {
     lateinit var tonyRomas: Restaurant
     lateinit var aoyama: Restaurant
     lateinit var outback: Restaurant
-    lateinit var siSenhor: Restaurant
+    lateinit var siSenor: Restaurant
 
     init {
         setRestaurantProperties()
@@ -86,7 +86,7 @@ class RestaurantsDataClass() {
             )
         )
 
-        siSenhor = Restaurant(
+        siSenor = Restaurant(
             "Sí Señor!",
             "https://media-cdn.tripadvisor.com/media/photo-s/10/5f/2d/54/crunch-tacos.jpg",
             "Alameda Jauaperi, 626 - Moema",

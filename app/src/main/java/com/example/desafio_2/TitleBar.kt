@@ -7,8 +7,4 @@ class TitleBar {
         context.title = title
         context.supportActionBar?.setDisplayHomeAsUpEnabled(backButton)
     }
-
-    fun setBackButton(context: AppCompatActivity, bool: Boolean) = with(context){
-        supportActionBar?.setDisplayHomeAsUpEnabled(bool)
-    }
 }
