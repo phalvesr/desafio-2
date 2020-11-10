@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
 class RestaurantInfoAdapter(
-    val restaurantInfo: Restaurant,
     val meals: List<ItemMenu>
 ) : RecyclerView.Adapter<RestaurantInfoAdapter.ViewHolder>() {
     override fun onCreateViewHolder(
@@ -21,7 +20,7 @@ class RestaurantInfoAdapter(
     }
 
     override fun onBindViewHolder(holder: RestaurantInfoAdapter.ViewHolder, position: Int) {
-        holder.bind(restaurantInfo, this.meals[position])
+        holder.bind(this.meals[position])
     }
 
     override fun getItemCount(): Int {
@@ -29,12 +28,12 @@ class RestaurantInfoAdapter(
     }
 
     class ViewHolder(val itemView: View) : RecyclerView.ViewHolder(itemView) {
-        fun bind(restaurantInfo: Restaurant, meal: ItemMenu) {
+        fun bind(meal: ItemMenu) {
             Glide
                 .with(itemView.context)
-                .load(meal)
+                .load(meal.itemImage)
                 .placeholder(R.drawable.placeholder)
-//                .centerCrop()
+                .centerCrop()
                 .into(itemView.findViewById(R.id.itemMenuImage))
 
             itemView

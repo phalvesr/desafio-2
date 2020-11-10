@@ -64,7 +64,7 @@ class RestaurantsDataClass() {
             "00:00",
             mutableListOf(
                 ItemMenu(
-                    "https://s3.amazonaws.com/institucional-statics-files/site/uploads/Bloomin_Onion_cmyk_outback-225x253.png",
+                    "https://s3.amazonaws.com/institucional-statics-files/site/uploads/Outback-Fries_305x342-305x250.png",
                     "Aussie Cheese Fries",
                     "Topped with melted Monterey Jack, Cheddar and chopped bacon with house-made ranch dressing. Available in small and large size."
                 ),

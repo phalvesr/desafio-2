@@ -17,6 +17,15 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/shrimp" />
 
+    <View
+        android:layout_width="0dp"
+        android:layout_height="242dp"
+        android:background="@drawable/image_view_bottom_bar"
+        app:layout_constraintBottom_toBottomOf="@id/ivRestaurantInfoActivity"
+        app:layout_constraintStart_toStartOf="@id/ivRestaurantInfoActivity"
+        app:layout_constraintEnd_toEndOf="@id/ivRestaurantInfoActivity"
+        />
+
     <ImageView
         android:id="@+id/backButtonRestaurantInfoActivity"
         android:layout_width="wrap_content"
