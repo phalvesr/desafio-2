@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilEmailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/register_activity_horizontal_margin"
+            android:layout_marginTop="@dimen/register_activity_name_top_margin"
+            android:layout_marginEnd="@dimen/register_activity_horizontal_margin"
+            android:hint="@string/login_activity_email"
+            app:hintTextColor="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/login_activity_text_input_color" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPasswordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/register_activity_horizontal_margin"
+            android:layout_marginTop="@dimen/login_activity_top_margin"
+            android:layout_marginEnd="@dimen/register_activity_horizontal_margin"
+            android:hint="@string/login_activity_password"
+            app:hintTextColor="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="@id/tilEmailLogin"
+            app:layout_constraintStart_toStartOf="@id/tilEmailLogin"
+            app:layout_constraintTop_toBottomOf="@id/tilEmailLogin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@color/login_activity_text_input_color" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/logInButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_activity_button_margin_top"
+            android:background="@color/button_color"
+            android:text="@string/login_button_text"
+            android:textAllCaps="true"
+            android:textColor="@color/login_button_text_color"
+            app:layout_constraintEnd_toEndOf="@id/tilEmailLogin"
+            app:layout_constraintStart_toStartOf="@id/tilEmailLogin"
+            app:layout_constraintTop_toBottomOf="@id/tilPasswordLogin" />
+
+        <TextView
+            android:id="@+id/separatorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/login_activity_separator_text_horizontal_margin"
+            android:layout_marginTop="@dimen/login_activity_separator_text_top_margin"
+            android:layout_marginEnd="@dimen/login_activity_separator_text_horizontal_margin"
+            android:text="@string/login_activity_separator_text"
+            android:textColor="@color/login_activity_separator_text_color"
+            android:textSize="@dimen/login_activity_separator_text_size"
+            app:layout_constraintEnd_toStartOf="@id/thinLineEnd"
+            app:layout_constraintStart_toEndOf="@id/thinLineStart"
+            app:layout_constraintTop_toBottomOf="@id/logInButton" />
+
+        <View
+            android:id="@+id/thinLineStart"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/login_activity_separator_thin_line_color"
+            app:layout_constraintBottom_toBottomOf="@id/separatorText"
+            app:layout_constraintEnd_toEndOf="@id/separatorText"
+            app:layout_constraintEnd_toStartOf="@id/separatorText"
+            app:layout_constraintStart_toStartOf="@id/tilEmailLogin"
+            app:layout_constraintTop_toTopOf="@id/separatorText" />
+
+        <View
+            android:id="@+id/thinLineEnd"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/login_activity_separator_thin_line_color"
+            app:layout_constraintBottom_toBottomOf="@id/separatorText"
+            app:layout_constraintEnd_toEndOf="@id/tilEmailLogin"
+            app:layout_constraintStart_toEndOf="@id/separatorText"
+            app:layout_constraintTop_toBottomOf="@id/logInButton"
+            app:layout_constraintTop_toTopOf="@id/separatorText" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_activity_register_button_margin_top"
+            android:background="@color/login_activity_register_button_background_color"
+            android:text="@string/login_activity_register_button_text"
+            android:textAllCaps="true"
+            android:textColor="@color/login_activity_register_button_text_color"
+            app:layout_constraintEnd_toEndOf="@id/tilEmailLogin"
+            app:layout_constraintStart_toStartOf="@id/tilEmailLogin"
+            app:layout_constraintTop_toBottomOf="@id/separatorText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

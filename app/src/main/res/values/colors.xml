@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#b7bfcb</color>
+    <color name="login_activity_text_input_color">#3F51B5</color>
+    <color name="total_white">#FFFFFF</color>
+    <color name="button_color">#FF5252</color>
+    <color name="login_button_text_color">#FFFFFF</color>
+    <color name="login_activity_separator_text_color">#47525E</color>
+    <color name="login_activity_separator_thin_line_color">#C0CCDA</color>
+    <color name="login_activity_register_button_text_color">#FFFFFF</color>
+    <color name="login_activity_register_button_background_color">#8492A6</color>
+    <color name="restaurant_list_activity_background_color">#DDDDDD</color>
+</resources>
