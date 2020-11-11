@@ -13,9 +13,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ItemMenuDescriptionActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity android:name=".RestaurantInfoActivity" android:theme="@style/RestaurantInfoActivity"></activity>
-        <activity android:name=".RestaurantListActivity"></activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity" android:parentActivityName=".LoginActivity" />
+        <activity android:name=".RestaurantListActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".LoginActivity" android:theme="@style/defaultTheme"/>
+        <activity android:name=".RegisterActivity" android:theme="@style/defaultTheme"/>
         <activity android:name=".SplashScreen" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

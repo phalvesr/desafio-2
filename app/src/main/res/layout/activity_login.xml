@@ -103,6 +103,7 @@
             app:layout_constraintTop_toTopOf="@id/separatorText" />
 
         <Button
+            android:id="@+id/registerButtonLoginActivity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/login_activity_register_button_margin_top"

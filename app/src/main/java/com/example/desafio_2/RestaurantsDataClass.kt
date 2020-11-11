@@ -1,6 +1,6 @@
 package com.example.desafio_2
 
-class RestaurantsDataClass() {
+class RestaurantsDataClass  {
 
     lateinit var tonyRomas: Restaurant
     lateinit var aoyama: Restaurant
@@ -47,7 +47,7 @@ class RestaurantsDataClass() {
             mutableListOf(
                 ItemMenu(
                     "https://yata-apix-f2414b5e-b6d4-4865-88fc-6f44cc6f6494.lss.locawebcorp.com.br/e88aaaa4f4fa48a7a86b869077f26430.jpg",
-                    "Sushi (寿司 or 鮨)",
+                    "Sushi",
                     "the most famous Japanese dish outside of Japan, and one of the most popular dishes among the Japanese. In Japan, sushi is usually enjoyed on special occasions, such as a celebration."
                 ),
                 ItemMenu(

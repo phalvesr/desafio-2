@@ -12,4 +12,5 @@
     <color name="login_activity_register_button_text_color">#FFFFFF</color>
     <color name="login_activity_register_button_background_color">#8492A6</color>
     <color name="restaurant_list_activity_background_color">#DDDDDD</color>
+    <color name="restaurant_info_activity_menu_title_text_color">#5A6978</color>
 </resources>

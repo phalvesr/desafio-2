@@ -6,6 +6,14 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/total_white</item>
+        <item name="android:textColorPrimary">@color/total_white</item>
+    </style>
+
+    <style name="defaultTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="titleTextColor">@color/total_white</item>
     </style>
 
     <style name="RestaurantInfoActivity" parent="Theme.MaterialComponents.Light.NoActionBar">
@@ -13,11 +21,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/total_white</item>
     </style>
 
     <style name="WhiteButton">
         <item name="colorPrimary">@color/total_white</item>
         <item name="colorPrimaryDark">@color/total_white</item>
+        <item name="titleTextColor">@color/total_white</item>
     </style>
 
 </resources>

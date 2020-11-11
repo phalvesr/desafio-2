@@ -11,4 +11,13 @@
     <dimen name="login_activity_separator_text_size">18sp</dimen>
     <dimen name="login_activity_register_button_margin_top">73dp</dimen>
     <dimen name="restaurant_card_item_horizontal_internal_margin_default">16dp</dimen>
+    <dimen name="restaurant_info_activity_restaurant_name_margin_start">24dp</dimen>
+    <dimen name="restaurant_info_activity_restaurant_name_text_size">36sp</dimen>
+    <dimen name="restaurant_info_activity_restaurant_name_margin_bottom">11dp</dimen>
+    <dimen name="restaurant_info_activity_main_meals_text_size">36sp</dimen>
+    <dimen name="restaurant_info_activity_back_button_padding_start">24dp</dimen>
+    <dimen name="restaurant_info_activity_back_button_padding_top">10dp</dimen>
+    <dimen name="restaurant_info_activity_back_button_padding_end">10dp</dimen>
+    <dimen name="restaurant_info_activity_back_button_padding_bottom">10dp</dimen>
+    <dimen name="restaurant_info_activity_restaurant_cover_image_height">242dp</dimen>
 </resources>

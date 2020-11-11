@@ -1,5 +1,6 @@
 package com.example.desafio_2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -21,9 +22,38 @@ class RestaurantListActivity : AppCompatActivity() {
                         RestaurantsDataClass().aoyama,
                         RestaurantsDataClass().outback,
                         RestaurantsDataClass().siSenor
-                    )
+                    ), { onClick(it) }
                 )
                 layoutManager = LinearLayoutManager(this@RestaurantListActivity)
             }
+    }
+
+    private fun onClick(int: Int) {
+        when {
+            int == 0 -> {
+                val intent = Intent(this, RestaurantInfoActivity::class.java)
+                intent.putExtra(KEY_RESTAURANT, RestaurantsDataClass().tonyRomas)
+                startActivity(intent)
+            }
+            int == 1 -> {
+                val intent = Intent(this, RestaurantInfoActivity::class.java)
+                intent.putExtra(KEY_RESTAURANT, RestaurantsDataClass().aoyama)
+                startActivity(intent)
+            }
+            int == 2 -> {
+                val intent = Intent(this, RestaurantInfoActivity::class.java)
+                intent.putExtra(KEY_RESTAURANT, RestaurantsDataClass().outback)
+                startActivity(intent)
+            }
+            int == 3 -> {
+                val intent = Intent(this, RestaurantInfoActivity::class.java)
+                intent.putExtra(KEY_RESTAURANT, RestaurantsDataClass().siSenor)
+                startActivity(intent)
+            }
+        }
+    }
+
+    companion object {
+        const val KEY_RESTAURANT = "restaurant"
     }
 }
