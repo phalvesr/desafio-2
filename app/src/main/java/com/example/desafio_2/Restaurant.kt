@@ -11,3 +11,5 @@ data class Restaurant(
     var restaurantClosingHour: String,
     val restaurantMenu: MutableList<ItemMenu>
 ) : Parcelable
+
+
