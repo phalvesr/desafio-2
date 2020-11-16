@@ -7,6 +7,16 @@
     tools:context=".ItemMenuDescriptionActivity">
 
     <Button
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="35dp"
+        android:theme="@style/WhiteButton"
+        android:layout_height="35dp"
+        android:layout_marginStart="@dimen/shadow_margin"
+        android:layout_marginTop="@dimen/shadow_margin_top"
+        android:background="@drawable/arrow_back_icon_shadow" />
+
+    <Button
         android:id="@+id/backButtonItemMenuDescriptonActivity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -16,6 +26,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/arrow_back_icon" />
+
 
     <ImageView
         android:id="@+id/iv_meal_item_description_activity"

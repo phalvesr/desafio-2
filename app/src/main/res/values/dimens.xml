@@ -20,4 +20,8 @@
     <dimen name="restaurant_info_activity_back_button_padding_end">10dp</dimen>
     <dimen name="restaurant_info_activity_back_button_padding_bottom">10dp</dimen>
     <dimen name="restaurant_info_activity_restaurant_cover_image_height">242dp</dimen>
+    <dimen name="shadow_margin">26dp</dimen>
+    <dimen name="shadow_margin_top">10dp</dimen>
+    <dimen name="shadow_padding_start_restaurant_info_activity">26dp</dimen>
+    <dimen name="shadow_padding_top_restaurant_info_activity">12dp</dimen>
 </resources>

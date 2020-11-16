@@ -9,4 +9,8 @@
     <string name="login_activity_separator_text">OR</string>
     <string name="login_activity_register_button_text">Register</string>
     <string name="restaurant_info_activity_main_meals">Pratos Principais</string>
+    <string name="invalidEmailString">Please enter a valid email address</string>
+    <string name="invalidPasswordString">Password must be at least 8 characters long</string>
+    <string name="loginActivityTitle">Digital House Foods</string>
+    <string name="registerActivityTitle">Register</string>
 </resources>

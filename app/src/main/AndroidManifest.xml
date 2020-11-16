@@ -14,14 +14,26 @@
         <activity android:name=".ItemMenuDescriptionActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity android:name=".RestaurantInfoActivity" android:theme="@style/RestaurantInfoActivity"></activity>
         <activity android:name=".RestaurantListActivity" android:theme="@style/AppTheme"/>
-        <activity android:name=".LoginActivity" android:theme="@style/defaultTheme"/>
-        <activity android:name=".RegisterActivity" android:theme="@style/defaultTheme"/>
-        <activity android:name=".SplashScreen" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".LoginActivity" android:theme="@style/defaultTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" android:theme="@style/defaultTheme">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".SplashScreen" android:theme="@style/RestaurantInfoActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
     </application>
 

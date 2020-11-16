@@ -26,6 +26,17 @@
         app:layout_constraintStart_toStartOf="@id/ivRestaurantInfoActivity" />
 
     <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/shadow_padding_start_restaurant_info_activity"
+        android:paddingTop="@dimen/shadow_padding_top_restaurant_info_activity"
+        android:paddingEnd="@dimen/restaurant_info_activity_back_button_padding_end"
+        android:paddingBottom="@dimen/restaurant_info_activity_back_button_padding_bottom"
+        android:src="@drawable/arrow_back_icon_shadow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
         android:id="@+id/backButtonRestaurantInfoActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
