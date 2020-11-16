@@ -8,9 +8,9 @@
     <string name="login_button_text">Log in</string>
     <string name="login_activity_separator_text">OR</string>
     <string name="login_activity_register_button_text">Register</string>
-    <string name="restaurant_info_activity_main_meals">Pratos Principais</string>
+    <string name="restaurant_info_activity_main_meals">Main Meals</string>
     <string name="invalidEmailString">Please enter a valid email address</string>
-    <string name="invalidPasswordString">Password must be at least 8 characters long</string>
+    <string name="invalidPasswordString">This password pattern is not allowed</string>
     <string name="loginActivityTitle">Digital House Foods</string>
     <string name="registerActivityTitle">Register</string>
     <string name="invalidNameInput">This name is not in an accepted format</string>
