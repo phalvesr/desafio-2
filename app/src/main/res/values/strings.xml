@@ -13,4 +13,5 @@
     <string name="invalidPasswordString">Password must be at least 8 characters long</string>
     <string name="loginActivityTitle">Digital House Foods</string>
     <string name="registerActivityTitle">Register</string>
+    <string name="invalidNameInput">This name is not in an accepted format</string>
 </resources>

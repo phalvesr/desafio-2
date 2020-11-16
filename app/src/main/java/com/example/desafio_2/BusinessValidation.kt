@@ -18,4 +18,11 @@ class Validation {
         }
         return true
     }
+
+    fun isNameValid(name: String): Boolean {
+        if (name.isBlank() || name.length < 3) {
+            return false
+        }
+        return true
+    }
 }

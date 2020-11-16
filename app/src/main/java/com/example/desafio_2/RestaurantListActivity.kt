@@ -3,6 +3,7 @@ package com.example.desafio_2
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -51,6 +52,13 @@ class RestaurantListActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         }
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home) {
+            return true
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     companion object {
