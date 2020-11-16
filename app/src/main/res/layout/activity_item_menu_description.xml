@@ -9,9 +9,9 @@
     <Button
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_width="35dp"
+        android:layout_width="@dimen/arrow_back_width_back_item_menu_activity"
         android:theme="@style/WhiteButton"
-        android:layout_height="35dp"
+        android:layout_height="@dimen/back_item_menu_activity_arrow_back_height"
         android:layout_marginStart="@dimen/shadow_margin"
         android:layout_marginTop="@dimen/shadow_margin_top"
         android:background="@drawable/arrow_back_icon_shadow" />
@@ -20,9 +20,9 @@
         android:id="@+id/backButtonItemMenuDescriptonActivity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_width="35dp"
+        android:layout_width="@dimen/arrow_back_width_back_item_menu_activity"
         android:theme="@style/WhiteButton"
-        android:layout_height="35dp"
+        android:layout_height="@dimen/back_item_menu_activity_arrow_back_height"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/arrow_back_icon" />
@@ -31,7 +31,7 @@
     <ImageView
         android:id="@+id/iv_meal_item_description_activity"
         android:layout_width="match_parent"
-        android:layout_height="242dp"
+        android:layout_height="@dimen/back_item_menu_activity_image_height"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -40,7 +40,7 @@
 
     <View
         android:layout_width="0dp"
-        android:layout_height="242dp"
+        android:layout_height="@dimen/back_item_menu_activity_image_height"
         android:background="@drawable/image_view_bottom_bar"
         app:layout_constraintBottom_toBottomOf="@id/iv_meal_item_description_activity"
         app:layout_constraintEnd_toEndOf="@id/iv_meal_item_description_activity"
@@ -48,12 +48,12 @@
 
     <TextView
         android:id="@+id/item_menu_description_activity_meal_name"
-        android:layout_marginStart="23dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginStart="@dimen/back_item_menu_activity_restaurant_name_margin_start"
+        android:layout_marginBottom="@dimen/back_item_menu_activity_restaurant_name_margin_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/total_white"
-        android:textSize="36sp"
+        android:textSize="@dimen/back_item_menu_activity_restaurant_name_text_size"
         app:layout_constraintBottom_toBottomOf="@id/iv_meal_item_description_activity"
         app:layout_constraintStart_toStartOf="@id/iv_meal_item_description_activity"
         tools:text="Salada com molho" />
@@ -63,9 +63,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="11dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="11dp"
-        android:textSize="24sp"
+        android:layout_marginTop="@dimen/item_menu_activity_description_margin_top"
+        android:layout_marginEnd="@dimen/item_menu_activity_description_margin_end"
+        android:textSize="@dimen/item_menu_activity_description_text_size"
         app:layout_constraintTop_toBottomOf="@id/iv_meal_item_description_activity"
         tools:text="Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusant doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis." />
 

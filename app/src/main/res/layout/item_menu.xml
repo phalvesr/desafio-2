@@ -8,8 +8,8 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="wrap_content"
         android:layout_height="210dp"
-        app:cardCornerRadius="10dp"
-        android:layout_margin="10dp"
+        app:cardCornerRadius="@dimen/item_menu_card_corner_radius"
+        android:layout_margin="@dimen/item_menu_card_default_margin"
         android:background="@color/total_white">
 
         <LinearLayout
@@ -20,16 +20,16 @@
             <ImageView
                 android:id="@+id/itemMenuImage"
                 android:layout_width="wrap_content"
-                android:layout_height="150dp"
+                android:layout_height="@dimen/item_menu_image_height"
                 tools:src="@drawable/shrimp"
                 android:scaleType="centerCrop"/>
             
             <TextView
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
+                android:paddingStart="@dimen/item_menu_padding"
+                android:paddingEnd="@dimen/item_menu_padding_end"
                 android:id="@+id/mealName"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="@dimen/item_menu_text_height"
                 android:maxLines="2"
                 android:ellipsize="end"
                 tools:text="Salada com molho Gengibre Salada com molho"
